@@ -63,7 +63,8 @@ _G.FarmMastery_Settings = {
         ["AutoSettings"] = true,
         ["ManualSettings"] = {
             "Saber",
-            "Buddy Sword"
+            "Buddy Sword",
+            "CursedDualKatana"
         }
     }
 }
