@@ -7,9 +7,9 @@ getgenv().Script_Mode = "Kaitun_Script"
 _G.MainSettings = {
     ["EnabledHOP"] = true,
     ['FPSBOOST'] = true,
-    ["FPSLOCKAMOUNT"] = 30,
+    ["FPSLOCKAMOUNT"] = 60,
     ['WhiteScreen'] = true,
-    ['CloseUI'] = false,
+    ['CloseUI'] = true,
     ["NotifycationExPRemove"] = true,
     ['AFKCheck'] = 150,
     ["LockFragments"] = 20000,
@@ -19,7 +19,7 @@ _G.MainSettings = {
     }
 }
 _G.SharkAnchor_Settings = {
-    ["Enabled_Farm"] = false,
+    ["Enabled_Farm"] = true,
     ['FarmAfterMoney'] = 2500000
 }
 _G.Quests_Settings = {        
@@ -60,13 +60,13 @@ _G.Settings_Melee = {
 }
 _G.SwordSettings = {
     ['Saber'] = true,
-    ["Pole"] = true,
-    ['MidnightBlade'] = true,
-    ['Shisui'] = false,
-    ['Saddi'] = false,
+    ["Pole"] = false,
+    ['MidnightBlade'] = false,
+    ['Shisui'] = true,
+    ['Saddi'] = true,
     ['Wando'] = false,
     ['Yama'] = true,
-    ['Rengoku'] = true,
+    ['Rengoku'] = false,
     ['Canvander'] = false,
     ['BuddySword'] = false,
     ['TwinHooks'] = false,
@@ -75,8 +75,8 @@ _G.SwordSettings = {
     ['CursedDualKatana'] = true
 }
 _G.GunSettings = {
-    ['Kabucha'] = true,
-    ['SerpentBow'] = true,
+    ['Kabucha'] = false,
+    ['SerpentBow'] = false,
     ['SoulGuitar'] = true
 }
 _G.FarmMastery_Settings = {
@@ -94,6 +94,7 @@ _G.FarmMastery_Settings = {
 _G.Hop_Settings = {
     ["Find Tushita"] = true
 }
+-- Script Here !!!
 (getgenv()).key = "MARU2476966VH28Y116VZ8H66G";
 (getgenv()).id = "1158755250413506601";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
