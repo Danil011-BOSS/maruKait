@@ -7,9 +7,9 @@ getgenv().Script_Mode = "Kaitun_Script"
 _G.MainSettings = {
     ["EnabledHOP"] = true,
     ['FPSBOOST'] = true,
-    ["FPSLOCKAMOUNT"] = 60,
+    ["FPSLOCKAMOUNT"] = 15,
     ['WhiteScreen'] = true,
-    ['CloseUI'] = true,
+    ['CloseUI'] = false,
     ["NotifycationExPRemove"] = true,
     ['AFKCheck'] = 150,
     ["LockFragments"] = 20000,
@@ -94,7 +94,6 @@ _G.FarmMastery_Settings = {
 _G.Hop_Settings = {
     ["Find Tushita"] = true
 }
--- Script Here !!!
 (getgenv()).key = "MARU2476966VH28Y116VZ8H66G";
 (getgenv()).id = "1158755250413506601";
 loadstring(game:HttpGet("https://raw.githubusercontent.com/xshiba/MaruComkak/main/PCBit.lua"))()
